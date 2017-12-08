@@ -67,7 +67,7 @@
     .stickit {
         position: relative;
         top: 0;
-        width: 100%;
+        /*width: 100%;*/
     }
     #video-background {
         height: 100%;
@@ -168,10 +168,10 @@
     .contact {
         position: absolute;
         right: 10%;
-        font-size: 24px;
+        font-size: 16px;
         color: black;
         z-index: 15;
-        top: 40px;
+        top: 52px;
     }
 
     .intro {
@@ -246,11 +246,6 @@
         font-size: 20px;
     }
 
-    .imprint {
-        position: relative;
-        font-size: 20px;
-        margin-top: 40px;
-    }
 
 
 }

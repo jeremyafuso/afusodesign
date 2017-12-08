@@ -78,7 +78,7 @@ nav {
         font-size: 24px;
         color: #F8F8F8;
         z-index: 15;
-        top: 90px;
+        top: 94px;
     }
 
     .contact a {
@@ -123,8 +123,9 @@ header {
         width: 100%;
         position: absolute;
         bottom: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
         z-index: 15;
+        opacity: .8;
     }
 
     .message span {
@@ -370,11 +371,6 @@ header {
         color: #fff;
     }
 
-    .imprint {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
 
 .case {
     border-bottom: 1px solid #e9e9e9;
