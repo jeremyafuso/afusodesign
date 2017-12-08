@@ -98,7 +98,9 @@ nav {
         color: #2400ff;
     }
 
-
+#home {
+  transition: all 0.3s ease-in-out;
+}
 
 
 .wrapper {
@@ -277,6 +279,18 @@ header {
         display: inline-block;
         vertical-align: middle;  /* vertical alignment of the inline element */
     }
+
+  .main-logo {
+        font: 0/0 a;         /* remove the gap between inline(-block) elements */
+    }
+
+  .main-logo:before {    /* create a full-height inline block pseudo=element */
+        content: ' ';
+        display: inline-block;
+        vertical-align: middle;  /* vertical alignment of the inline element */
+        height: 100%;
+    }
+
 
 
 .awards {
@@ -591,4 +605,10 @@ width: 100%;
 }
 
 
-
+.fadein {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
